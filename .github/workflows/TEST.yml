@@ -11,7 +11,7 @@ on:
 
 jobs:
   call-workflow-A:
-    uses: saksham0197/Thank-You-Action-JS/blob/main/.github/workflows/test.yml@main
+    uses: saksham0197/Thank-You-Action-JS/main/.github/workflows/test.yml@main
     with:
       username: saksham
     secrets:
