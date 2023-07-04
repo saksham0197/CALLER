@@ -12,4 +12,4 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          repository: <saksham0197>/<Thank-You-Action-JS>
+          repository: saksham0197/Thank-You-Action-JS
