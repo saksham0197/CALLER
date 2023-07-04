@@ -11,6 +11,6 @@ jobs:
       - name: Trigger Another Workflow
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN }}
           repository: saksham0197/Thank-You-Action-JS
           event-type: setup
