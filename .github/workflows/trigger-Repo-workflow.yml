@@ -13,3 +13,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository: saksham0197/Thank-You-Action-JS
+          event-type: setup
