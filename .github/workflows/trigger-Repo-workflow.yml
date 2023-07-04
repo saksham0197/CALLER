@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Trigger Another Workflow
-        uses: peter-evans/repository-dispatch@v1
+        uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository: saksham0197/Thank-You-Action-JS
